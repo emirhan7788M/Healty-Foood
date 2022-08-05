@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --hover_btn: #DC780B;
+  --backgraunds: #FBF1E7;
+  --footer: #252525;
+  --options: #012F34;
+  --optitext: #F67E7E;
+  --real: #004047;
+  --footer: #002529;
+  --abaut_cart: #012F34;
+}
+
+
+
+
+ul,
+ol,
+li {
+  list-style: none;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+
+  color: #150C01;
+  line-height: 1;
+  font-family: inherit;
+}
+
+input,
+textarea,
+button {
+  font-family: ' Livvic';
+
+  border: none;
+  outline: none;
+  resize: none;
+  background: none;
+}
+
+a {
+
+  display: inline-block;
+  text-decoration: none;
+}
+
+body {
+
+  min-width: 320px;
+  background: #E5E5E5;
+  font-weight: 400;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
