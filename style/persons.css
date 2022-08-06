@@ -6,8 +6,13 @@
     padding-top: 108px;
     transition: 300ms;
 }
+.persons {
+    position: relative;
+
+}
 
 .persons__img {
+    z-index: 1001;
     width: 100%;
 }
 
@@ -49,6 +54,17 @@
     width: 120px;
     padding: 10px 0;
 }
+.persons:before{
+    z-index: -1;
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../img/bg-dog.svg);
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 750px;
+}
 
 @media (max-width: 1024px) {
 
@@ -77,6 +93,17 @@
 }
 
 @media (max-width: 768px) {
+    .persons:before{
+        z-index: -1;
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: url(../img/bg-dog.svg);
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 500px;
+    }
 
     .persons__food {
         margin: 10px 0 15px 0;
