@@ -63,7 +63,7 @@
     background-image: url(../img/bg-dog.svg);
     background-repeat: no-repeat;
     width: 420px;
-    height: 750px;
+    height: 900px;
 }
 
 @media (max-width: 1024px) {
