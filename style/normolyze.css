@@ -43,7 +43,7 @@ p {
 input,
 textarea,
 button {
-  font-family: ' Livvic';
+  font-family: 'Roboto';
 
   border: none;
   outline: none;
@@ -52,7 +52,7 @@ button {
 }
 
 a {
-
+  color: #002529;
   display: inline-block;
   text-decoration: none;
 }

@@ -1,0 +1,115 @@
+.header__wrapper {
+    justify-content: space-between;
+    display: flex;
+    margin: 30px 0 51px 0;
+}
+
+.header__left {
+    gap: 35px;
+    align-items: center;
+    display: flex;
+}
+
+.header__list {
+    gap: 41px;
+    display: flex;
+}
+
+.line {
+    width: 20px;
+    height: 3px;
+    background-color: var(--hover_btn);
+}
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    display: none;
+}
+
+.header__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    opacity: 0.6;
+    transition: 300ms;
+}
+
+.header__text:hover {
+    color: var(--hover_btn);
+}
+
+.general_btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    width: 17%;
+    background-color: var(--hover_btn);
+    border-radius: 5px;
+    transition: 300ms;
+}
+
+.general_btn:hover {
+    border: 1px solid var(--hover_btn);
+    background-color: #fff;
+    color: var(--hover_btn);
+
+}
+
+
+@media (max-width: 768px) {
+    .header__list {
+        gap: 20px;
+        display: flex;
+    }
+    .general_btn {
+
+    width: 19%;
+    }
+    .header__text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+@media (max-width:573px) {
+    .header__list  {
+        /* transform: translate(-100%, 0); */
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+        padding-top: 50px;
+        position: fixed;
+        width: 60%;
+        left: 0;
+        top: 0;
+        height: 100%;
+        background-color: var(--hover_btn);
+
+    }
+    .header__text {
+        color: #fff;
+    }
+    .burger {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        display: flex;
+    }
+    .nav__btn {
+        display: none;
+    }
+
+
+}
