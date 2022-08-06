@@ -1,0 +1,41 @@
+.hero__wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.hero__items {
+    width: 60%;
+}
+
+.hero__img {
+    width: 40%;
+}
+.hero__making {
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48.83px;
+    line-height: 58px;
+}
+
+.hero__title {
+    margin: 42px 0 52px 0  ;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.7;
+}
+
+.hero__button {
+    display: flex;
+    gap: 10px;
+}
+
+.hero__btn {
+    padding: 10px;
+    width: 20%;
+}

@@ -34,7 +34,6 @@ h4,
 h5,
 h6,
 p {
-
   color: #150C01;
   line-height: 1;
   font-family: inherit;
@@ -60,7 +59,7 @@ a {
 body {
 
   min-width: 320px;
-  background: #E5E5E5;
+  background: #fff;
   font-weight: 400;
 }
 
@@ -72,3 +71,15 @@ body {
   margin: 0 auto;
 }
 
+.general_btn {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  width: 17%;
+  background-color: var(--hover_btn);
+  border-radius: 5px;
+  transition: 300ms;
+}
