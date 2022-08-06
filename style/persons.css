@@ -2,18 +2,23 @@
     width: 100%;
     display: flex;
     align-items: center;
-    padding-top: 108px;
     justify-content: space-between;
+    padding-top: 108px;
     transition: 300ms;
 }
 
+.persons__img {
+    width: 100%;
+}
 
 .persons__girl {
     border-radius: 20px;
 }
+
 .persons__girl {
-    width: 100%;
+    width: 50%;
 }
+
 .persons__righit {
     align-items: center;
     width: 40%;
@@ -27,7 +32,7 @@
 }
 
 .persons__food {
-    margin: 10px 0 30px 0 ;
+    margin: 10px 0 30px 0;
     font-family: 'Philosopher';
     font-style: normal;
     font-weight: 700;
@@ -35,11 +40,100 @@
     line-height: 41px;
     text-align: start;
 }
+
 .persons__text {
     padding-bottom: 29px;
 }
 
 .persons__btn {
-    width: 90px;
+    width: 120px;
     padding: 10px 0;
 }
+
+@media (max-width: 1024px) {
+
+    .persons__wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding-top: 108px;
+        justify-content: space-between;
+        transition: 300ms;
+    }
+
+
+    .persons__girl {
+        border-radius: 20px;
+    }
+
+    .persons__girl {
+        width: 50%;
+    }
+
+    .persons__righit {
+        align-items: center;
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .persons__food {
+        margin: 10px 0 15px 0;
+        font-size: 24.25px;
+        line-height: 30px;
+        text-align: start;
+    }
+
+    .general__title {
+        padding-bottom: 23px;
+        font-size: 14px;
+        line-height: 20px;
+        display: flex;
+        color: #150C01;
+        opacity: 0.7;
+    }
+
+    .persons__girl {
+        display: flex;
+        width: 48%;
+    }
+
+    .persons__righit {
+        align-items: center;
+        width: 48%;
+    }
+
+}
+
+@media (max-width: 573px) {
+
+
+    .persons__food {
+        text-align: center;
+    }
+    .persons__us {
+        text-align: center;
+    }
+    .persons__wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        transition: 300ms;
+    }
+    .persons__girl {
+        display: none;
+    }
+
+    .persons__righit {
+        text-align: center;
+        width: 100%;
+    }
+    .persons__btn {
+        margin: 20px auto;
+        width: 35%;
+    }
+}
+
