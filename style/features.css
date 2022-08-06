@@ -1,0 +1,46 @@
+.features__wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.features_images {
+    position: relative;
+}
+.features__img::after {
+    content: " ";
+    position: absolute;
+    transform: translate(-78%, -15px);
+    background-color: #8FA632;
+    border-radius: 50%;
+    width: 90px;
+    height: 85px;
+    opacity: 0.2    ;
+    z-index: 0;
+
+
+}
+.features__list {
+    text-align: center;
+    width: 33%;
+}
+.features_h {
+    margin-bottom: 75px;
+}
+
+.features__items {
+    margin: 33px 0 15px 0;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+}
+.features__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    opacity: 0.7;
+}
