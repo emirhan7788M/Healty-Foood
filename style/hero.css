@@ -2,7 +2,6 @@
     width: 100%;
     display: flex;
     align-items: center;
-
 }
 
 .hero__items {
@@ -38,4 +37,76 @@
 .hero__btn {
     padding: 10px;
     width: 20%;
+}
+
+
+@media (max-width: 1024px) {
+    .hero__img {
+        width: 50%;
+    }
+    .hero__items {
+        width: 60%;
+    }
+    .hero__title {
+        margin: 25px 0 25px 0  ;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        opacity: 0.7;
+    }
+    .hero__making {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .hero__button {
+        display: flex;
+        gap: 10px;
+    }
+
+    .hero__btn {
+        padding: 7px;
+        width: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero__wrapper {
+        width: 100%;
+        display: flex;
+        align-items: stretch;
+
+    }
+    .hero__btn {
+        padding: 7px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 573px) {
+    .hero__wrapper {
+        justify-content: center;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .hero__img {
+        margin-top: 30px;
+        width: 80%;
+    }
+    .hero__items {
+        width: 80%;
+    }
+    .hero__making {
+        font-size: 29px;
+        line-height: 35px;
+    }
+    .hero__title {
+        margin: 11px 0 25px 0;
+            font-size: 14px;
+        line-height: 22px;
+}
 }
