@@ -107,3 +107,15 @@ body {
   text-transform: capitalize;
   text-align: center;
 }
+
+
+.general__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  color: #150C01;
+  opacity: 0.7;
+}

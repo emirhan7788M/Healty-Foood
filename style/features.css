@@ -60,6 +60,7 @@
         flex-wrap: wrap;
         gap: 50px;
     }
+
     .features__list {
         width: 40%;
         text-align: center;
@@ -72,6 +73,7 @@
         width: 100%;
         text-align: center;
     }
+
     .features_h {
         font-size: 25.25px;
         line-height: 35px;
