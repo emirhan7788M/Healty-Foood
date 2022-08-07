@@ -91,7 +91,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  text-align: center;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--hover_btn);
@@ -105,7 +104,6 @@ body {
   font-size: 31.25px;
   line-height: 35px;
   text-transform: capitalize;
-  text-align: center;
 }
 
 

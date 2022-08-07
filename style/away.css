@@ -1,0 +1,75 @@
+.away {
+    background-color: var( --backgraunds);
+
+}
+
+.away__wrapper {
+    margin: 150px 0;
+    position: relative;
+    padding: 119px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.away__wrapper::after {
+    right: 0;
+    position: absolute;
+    content: url(../img/mobile-iphone.png);
+}
+.away__text {
+    width: 50%;
+}
+
+.away__title {
+    margin: 20px 0 39px 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 50%;
+    opacity: 0.7;
+}
+
+
+.away__button {
+    gap: 60px;
+    display: flex;
+}
+.away__link {
+    width: 110%;
+    color: #fff;
+    background: #150C01;
+    border-radius: 5px;
+    padding: 8px 8px;
+    align-items: center;
+    transition: 300ms;
+    display: inline-flex;
+
+}
+
+.away__store {
+    padding: 0 10px;
+}
+
+.away__app {
+    width: 110%;
+    background: #fff;
+    border-radius: 5px;
+    padding: 8px 8px;
+    align-items: center;
+    display: inline-flex;
+    transition: 300ms;
+}
+.away__app:hover {
+    transition: 300ms;
+    background-color: beige;
+}
+.away__link:hover {
+    opacity: 0.8;
+
+}
+
+
+
