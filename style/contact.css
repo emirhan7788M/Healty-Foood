@@ -1,10 +1,12 @@
 .contact {
+    padding-bottom: 117px;
     padding-top: 115px;
     margin-top: 115px;
     background-color: var(--backgraunds);
 }
 
 .contact__wrapper {
+
     width: 100%;
 }
 
@@ -43,4 +45,35 @@
 
 .contact__btn {
     z-index: 1;
+}
+
+
+@media (max-width: 768px) {
+    .contact__text  {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 573px)  {
+    .contact__text  {
+        width: 100%;
+        font-size: 23px;
+    }
+
+    .contact__form {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact__btn {
+        margin-top: 13px;
+        padding: 12px;
+        width: 90%;
+
+    }
+    .contact__input {
+        left: 0px;
+        transition: 300ms;
+        width: 90%;
+    }
 }
