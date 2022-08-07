@@ -18,7 +18,10 @@
     content: url(../img/mobile-iphone.png);
 }
 .away__text {
-    width: 50%;
+    width: 70%;
+}
+.away__rghit {
+    width: 75%;
 }
 
 .away__title {
@@ -69,6 +72,57 @@
 .away__link:hover {
     opacity: 0.8;
 
+}
+
+@media (max-width: 700px) {
+    .away__wrapper {
+        margin: 150px 0;
+        position: relative;
+        padding: 119px 0;
+        width: 100%;
+        display: flex;
+        padding: 55px 0;
+        align-items: center;
+    }
+
+    .away__wrapper::after {
+
+        display: none;
+    }
+    .away__text {
+        width: 100%;
+    }
+    .away__rghit {
+        width: 100%;
+    }
+    .away__text {
+        width: 100%;
+    }
+    .away__title {
+
+        margin: 20px 0;
+        width: 100%;
+
+    }
+    .away__rghit {
+        text-align: center;
+        width: 100%;
+    }
+    .away__button {
+        justify-content: center;
+        display: flex;
+    }
+
+}
+
+@media (max-width: 573px) {
+    .away__button {
+        justify-content: space-between;
+        gap: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
 }
 
 
