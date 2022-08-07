@@ -5,9 +5,15 @@
     margin: 18px 0 23px 0;
 }
 .Test__img {
+    position: relative;
     margin: 50px 0 15px 0;
     border-radius: 50%;
     text-align: center;
+}
+.Test__img::before {
+    transform: translate(-50%, 20px);
+    position: absolute;
+    content: url(../img/small_dog.svg);
 }
 .Test__item {
     margin: 0 auto;
