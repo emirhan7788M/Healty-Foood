@@ -121,7 +121,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 573px) {
     .Full__caard {
         transition: 300ms;
         margin-bottom: 35px;
