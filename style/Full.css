@@ -12,6 +12,11 @@
     margin-bottom: 21px;
     width: 30%;
 }
+
+.Full__food  {
+    margin: 10px 0;
+    text-align: center;
+}
 .Full__caard:hover{
     transform: rotateZ(-3deg);
     transition: 300ms;
@@ -22,6 +27,7 @@
     transform: rotateZ(0deg);
 }
 .Full__menu {
+    text-align: center;
     margin-top: 250px;
     margin-bottom: 9px;
 }
